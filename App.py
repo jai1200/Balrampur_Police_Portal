@@ -217,7 +217,7 @@ else:
     if st.session_state.user_role == "hq_master":
         st.markdown("<h2 style='color:#000000;'>📊 मुख्यालय मॉनिटरिंग डैशबोर्ड (Master Page)</h2>", unsafe_allow_html=True)
         # tab3 removed - automated random duty allotment feature disabled
-        tab1, tab2 = st.tabs(["📋 लाइव ड्यूटी मॉनिटर", "👮 कर्मी विवरण एवं स्मार्ट सर्च"])
+        tab1, tab2 = st.tabs(["📋 लाइव ड्यूटी मॉनिटर", "👮 कर्मी विवरण एवं स्मार्ट सर्च (हिंदी में)"])
         
         with tab1:
             col1, col2, col3 = st.columns(3)
