@@ -286,7 +286,7 @@ else:
             sc1, sc2, sc3 = st.columns([2, 2, 2])
             with sc1: search_master_thana = st.selectbox("थाना अनुसार फ़िल्टर", ["जनपद के सभी थाने"] + THANA_LIST, key="m_select")
             with sc2: search_pno = st.text_input("PNO नंबर से खोजें (केवल अंक मान्य)", "").strip()
-            with sc3: search_name = st.text_input("कर्मचारी के नाम से खोजें", "").strip()
+            with sc3: search_name = st.text_input("कर्मचारी के नाम से खोजें (केवल हिन्दी अक्षर मान्य)", "").strip()
             
             is_pno_valid = True
             if search_pno:
